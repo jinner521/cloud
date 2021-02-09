@@ -1,0 +1,119 @@
+.search img {
+  position: absolute;
+  top: 2.85rem;
+  left: 0.35rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  z-index: 1;
+}
+.search input {
+  position: relative;
+  padding-left: 0.7rem;
+  font-size: 0.28rem;
+  width: 85%;
+  height: 0.6rem;
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+}
+.search span {
+  line-height: 0.24rem;
+  text-align: center;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.86rem;
+  right: 0.38rem;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 0.22rem;
+}
+.hotsearch {
+  padding-left: 0.3rem;
+  margin-top: 0.3rem;
+}
+.hotsearch p {
+  font-size: 0.2rem;
+  color: gray;
+}
+.hotsearch .list {
+  margin: 10px 0 7px;
+  text-decoration: none;
+}
+.hotsearch .list .hotsong {
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 0.56rem;
+  margin-right: 0.14rem;
+  margin-bottom: 0.16rem;
+  padding: 0 0.22rem;
+  line-height: 0.56rem;
+}
+.hotsearch .list .hotsong .font {
+  font-size: 0.24rem;
+  color: #333;
+  vertical-align: top;
+}
+.searchList {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0 0 0.3rem;
+}
+.searchList li {
+  display: flex;
+  height: 1.2rem;
+  flex-direction: column;
+  position: relative;
+  font-size: 18px;
+}
+.searchList li .song_name {
+  height: 58%;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipise;
+  white-space: nowrap;
+}
+.searchList li .song_name .name {
+  font-size: 17px;
+  line-height: 0.51rem;
+}
+.searchList li .song_name .name span {
+  color: #888;
+  margin-left: 4px;
+  font-size: 17px;
+}
+.searchList li .song_author {
+  height: 42%;
+  font-size: 12px;
+}
+.searchList li .song_author .sq_icon {
+  width: 18px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  display: inline-block;
+  color: red;
+  font-size: 12px;
+  border: 0.01rem solid red;
+  transform: scale(0.6);
+}
+.searchList li .song_author .sq_icon .icon {
+  font-size: 12px;
+}
+.searchList li .song_icon {
+  width: 12%;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.searchList li .song_icon .icon-bofang {
+  font-size: 22px;
+  color: #666;
+  position: absolute;
+  right: 0.2rem;
+  top: 0;
+}

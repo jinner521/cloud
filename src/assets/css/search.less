@@ -1,0 +1,124 @@
+.search {
+   img{
+    position: absolute;;
+    top:2.85rem;
+    left: .35rem;
+    width: .4rem;
+    height: .4rem;
+    z-index: 1;
+   } 
+    input{
+        position: relative;
+    padding-left: .7rem;
+    font-size: .28rem;
+    width: 85%;
+    height: .6rem;
+    margin-left:.2rem;
+    margin-top: .3rem;
+    border-radius: 1rem;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+    }
+    span{
+        line-height: 0.24rem;
+        text-align: center;
+        width: .3rem;
+        height: .3rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 2.86rem;
+        right: .38rem;
+        background-color: #ccc;
+        color: #fff;
+        font-size: .22rem;
+    }
+}
+.hotsearch{
+    padding-left: .3rem;
+    margin-top: .3rem;
+   
+    p{
+        font-size: 0.2rem;
+        color: gray;
+    }
+    .list {
+        margin: 10px 0 7px;
+        text-decoration: none;
+        .hotsong{
+            border: 1px solid #eee;
+            border-radius: 0.5rem;
+            display: inline-block;
+            height: 0.56rem;
+            margin-right:0.14rem;
+            margin-bottom: 0.16rem;
+            padding: 0 .22rem;
+            line-height: 0.56rem;
+           .font{
+            font-size: 0.24rem;
+            color: #333;
+            vertical-align: top;
+           }
+        }
+    }
+}
+.searchList{
+    display: flex;
+    flex-direction:column;
+    padding: .3rem 0 0 .3rem;
+    li{
+        display: flex;
+        height: 1.2rem;
+        flex-direction:column;
+        position: relative;
+        font-size: 18px;
+        .song_name {
+            height: 58%;
+            width: 90%;
+            overflow: hidden;    
+            text-overflow:ellipise;    
+            white-space: nowrap;
+            .name {
+                font-size: 17px;
+                line-height: .51rem;
+
+                span {
+                    color: #888;
+                    margin-left: 4px;
+                    font-size: 17px;
+                }
+            }
+        }
+        .song_author {
+            height: 42%;
+            font-size: 12px;
+                .sq_icon {
+                    width: 18px;
+                    height: 14px;
+                    line-height: 14px;
+                    text-align: center;
+                    display: inline-block;
+                    color: red;
+                    font-size: 12px;
+                    border: .01rem solid red;
+                    transform: scale(0.6);
+                    .icon {
+                        font-size: 12px;
+                    }
+                }
+        }
+        .song_icon {
+            width: 12%;
+            text-align: center;
+            line-height: 1.1rem;
+            .icon-bofang {
+                font-size: 22px;
+                color: #666;
+                position: absolute;
+                right: .2rem;
+                top: 0;
+            }
+        }
+    }
+}
+
